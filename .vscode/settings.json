@@ -3,7 +3,8 @@
 
 
         "$shared": {
-            "route": "WeatherForecast"
+            "register": "auth/register",
+            "login": "auth/login"
         },
         "dev": {
             "host": "https://localhost:7143"
