@@ -1,0 +1,14 @@
+{
+    "rest-client.environmentVariables": {
+
+        "$shared": {
+            "route": ""
+        },
+        "dev": {
+            "host": ""
+        },
+        "prod": {
+            "host": ""
+        }
+    }
+}
