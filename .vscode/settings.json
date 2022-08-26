@@ -1,5 +1,6 @@
 {
     "rest-client.environmentVariables": {
+    
 
         "$shared": {
             "route": ""
