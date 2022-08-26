@@ -1,12 +1,12 @@
 {
     "rest-client.environmentVariables": {
-    
+
 
         "$shared": {
-            "route": ""
+            "route": "WeatherForecast"
         },
         "dev": {
-            "host": ""
+            "host": "https://localhost:7143"
         },
         "prod": {
             "host": ""
