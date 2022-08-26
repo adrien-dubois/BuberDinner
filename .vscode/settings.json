@@ -1,11 +1,13 @@
 {
     "rest-client.environmentVariables": {
 
+
         "$shared": {
-            "route": ""
+            "register": "auth/register",
+            "login": "auth/login"
         },
         "dev": {
-            "host": ""
+            "host": "https://localhost:7143"
         },
         "prod": {
             "host": ""
