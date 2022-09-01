@@ -3,9 +3,9 @@ using BuberDinner.Domain.Entities;
 
 namespace BuberDinner.Infrastructure.Persistence;
 
-public class userRepository : IUserRepository
+public class UserRepository : IUserRepository
 {
-    private readonly List<User> _users = new();
+    private static readonly List<User> _users = new();
     public void Add(User user)
     {
         _users.Add(user);
